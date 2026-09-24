@@ -98,7 +98,7 @@ function SiteHeader() {
 }
 
 function SalesFooter() {
-  return <footer className="footer wrap sales-footer"><div className="footer-top"><div><a href="/"><Brand /></a><p>Practical tools for smarter<br />e-commerce.</p></div><div className="footer-links"><div><strong>Explore</strong><a href="/">Home</a><a href="/tools">Tools</a><a href="/about">About</a></div><div><strong>Connect</strong><a href="/contact">Contact</a><a href="/privacy">Privacy</a><a href="/terms">Terms</a></div></div></div><div className="footer-bottom"><span>© 2026 EcomWithNabeel</span><span>Built for everyday selling <i className="india-dot" /></span></div></footer>
+  return <footer className="footer wrap sales-footer"><div className="footer-top"><div><a href="/"><Brand /></a><p>Free tools for smarter<br />online selling.</p></div><div className="footer-links"><div><strong>Explore</strong><a href="/">Home</a><a href="/tools">Tools</a><a href="/about">About</a></div><div><strong>Connect</strong><a href="/contact">Contact</a><a href="/privacy">Privacy Policy</a><a href="/terms">Terms</a></div></div></div><div className="footer-bottom"><span>© 2024 EcomWithNabeel. Free tools for smarter online selling.</span><span>India <i className="india-dot" /></span></div></footer>
 }
 
 function SalesShell({ children }) { return <div className="site-shell sales-shell"><SiteHeader />{children}<SalesFooter /></div> }
